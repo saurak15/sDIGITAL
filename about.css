@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Baloo 2', cursive; */
+}
+.active{
+    color: orangered;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#9900ff;
+    padding: 10px;
+}
+.leftheading h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+.rightheading ul{
+    color: white;
+  display: flex;
+   gap: 40px;
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   font-family: 'Baloo 2', cursive;
+}
+nav{
+    display: flex;
+    gap: 250px;
+}
+button{
+    font-family: 'Baloo 2', cursive;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243, 232, 232);
+    padding: 8px 20px;
+
+}
+button a{
+    font-size: 20px;
+    color: #9900ff;
+    justify-content: space-around;
+}
+.aboutContainer{
+    background-color: #9900ff;
+    padding: 100px 500px ;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0% 0% 30% 30%;
+    
+}
+.aboutContainer .about{
+    color: white;
+    background-color: #bf72f36b;
+    padding: 50px 20px;
+    border-radius: 40%;
+    font-family: 'Baloo 2', cursive;
+}
+.aboutContainer .about h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'Baloo 2', cursive;
+}
+.cardsContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.card{
+    background-color: #e6e6e6;
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: ;
+}
+.card h4{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px ;
+
+}
+.card p{
+    font-size: 15px;
+    opacity: .8;
+    font-family: 'Baloo 2', cursive;
+}
+.card .icon{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #9900cc;
+}
+.aboutcontainer{
+    margin: 50px;
+    padding: 20px 100px;
+    display: flex;
+    gap: 50px;
+}
+.lPart{
+    flex: 0 0 50%;
+}
+.rPart{
+    flex: 0 0 50%;
+}
+.lPart h5{
+    font-size: 30px;
+    color: orangered;
+    padding: 20px 0px;
+    
+}
+.lPart h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+.lPart p{
+    opacity: .8;
+    font-family: 'Baloo 2', cursive;
+    
+
+    
+
+}
+.lPart .progressBar .dg {
+    position: relative;
+    padding-top: 10px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+.progressBar .dg::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 500px;
+    height: 10px;
+    background-color: whitesmoke;
+}
+.progressBar .dg::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 400px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+.lPart .progressBar .seo {
+    position: relative;
+    padding-top: 40px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+.progressBar .seo::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 500px;
+    height: 10px;
+    background-color: whitesmoke;
+}
+.progressBar .seo::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 450px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 81, 0);
+}
+.lPart .progressBar .dd {
+    position: relative;
+    padding-top: 40px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+.progressBar .dd::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 500px;
+    height: 10px;
+    background-color: whitesmoke;
+}
+.progressBar .dd::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 480px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 98);
+}
+.lPart button{
+    padding: 15px 30px;
+    background-color: #9900ff;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+}
+.lPart button a{
+    color: white;
+}
+.workingContainer{
+    background-color: #9900ff;
+    margin: 100px 0px;
+    display: flex;
+    padding: 100px 200px;
+    gap: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.workingContainer .work .icon{
+    font-size: 50px;
+    text-align: center;
+    color: #ff3399;
+    
+
+}
+.workingContainer .work h3{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+.workingContainer .work h5{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}

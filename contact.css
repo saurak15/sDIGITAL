@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Baloo 2', cursive; */
+}
+.active{
+    color: orangered;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#9900ff;
+    padding: 10px;
+}
+.leftheading h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+.rightheading ul{
+    color: white;
+  display: flex;
+   gap: 40px;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Baloo 2', cursive;
+   font-size: 20px;
+}
+nav{
+    display: flex;
+    gap: 250px;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243, 232, 232);
+    padding: 8px 20px;
+
+}
+button a{
+    font-size: 20px;
+    color: #9900ff;
+    justify-content: space-around;
+}
+.contactContainer{
+    background-color: #9900ff;
+    padding: 100px 500px ;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0% 0% 30% 30%;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.contactContainer .contact{
+    color: white;
+    background-color: #bf72f36b;
+    padding: 50px 20px;
+    border-radius: 40%;
+}
+.contactContainer .contact h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.contactmsg{
+    margin: 100px 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.contactmsg h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'Baloo 2', cursive;
+}
+.contactmsg p{
+    font-size:20px ;
+    padding-bottom: 15px;
+    font-family: 'Baloo 2', cursive;
+    opacity: .8;
+}
+.contactmsg p a{
+    color: #9900ff;
+}
+.contactmsg form{
+    padding: 10px;
+    font-family: 'Baloo 2', cursive;
+
+}
+.contactmsg form input{
+    padding: 10px ;
+    padding-right: 150px;
+    border-radius: 10px;
+    /* border: 1px rgba(235, 190, 190, 0.938); */
+}
+.contactmsg form .sub input {
+    padding-right: 500px;
+    margin-top: 20px;
+}
+.contactmsg form .msg input{
+    padding: 10px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+}
+.contactmsg .btn{
+    /* background-color: #9900ff; */
+    text-align: center;
+}
+.contactmsg .btn button {
+    padding: 15px 250px;
+    background-color: #9900ff;
+}
+.contactmsg .btn a{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
